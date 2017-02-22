@@ -1,0 +1,32 @@
+{
+  "name": "matrix-appservice-steam",
+  "version": "1.0.0",
+  "description": "Steam appservice for Matrix",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ace13/matrix-appservice-steam.git"
+  },
+  "keywords": [
+    "steam",
+    "matrix",
+    "appservice",
+    "chat",
+    "im",
+    "bridge"
+  ],
+  "author": "Alexander Olofsson <ace@haxalot.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ace13/matrix-appservice-steam/issues"
+  },
+  "homepage": "https://github.com/ace13/matrix-appservice-steam#readme",
+  "dependencies": {
+    "long": "^3.2.0",
+    "matrix-appservice-bridge": "^1.3.6",
+    "steam": "^1.4.0"
+  }
+}
